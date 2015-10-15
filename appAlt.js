@@ -1,6 +1,7 @@
 console.log("running");
 $(document).ready(function() {
 
+var turn = true; 
 
 var spot = $(".spot");
 console.log(spot);
@@ -11,8 +12,15 @@ console.log(buttonReset);
 // var spot1 = $("")
 
 $(spot).click(function(){
-	spot.css('background-color', 'yellow');
-	// spot.css('cursor', 'none');
+		$(this).addClass('clicked'); 
+		if (turn){
+			$(this).css('background-color', 'yellow');
+			turn = false;
+		} else {
+			$(this).css('background-color', 'black');	
+			turn = true;
+		}
+
 })
 
 
