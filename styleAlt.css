@@ -18,7 +18,7 @@ h1{
 	background: red;
 	margin-top: 5%;
 	margin-left: 5%;
-	margin-bottom: 10%;
+	/*margin-bottom: 10%;*/
 	text-align: center;
 	height: 690px;
 	width: 690px;
@@ -57,13 +57,54 @@ h1{
 .spot:hover{
 	background: gray;
 }
-/*.container-players {
+
+.players-container {
 	background: white;
 	text-align: center;
-	height: 200px;
+	height: 300px;
 	width: 200px;
 	border: 4px solid black;
 	border-radius: 50px;
 	box-shadow: 0 0 10pt .5pt black;
+	margin-top: -600px; 
+	margin-right: 100px;
 	float: right;
-}*/
+}
+
+#yellow{
+	text-align: center;
+	font-size: 30px;
+	width: 70px;
+	height: 70px;
+	background: yellow;
+	border: 2px solid black;
+	-moz-border-radius: 45px;
+	-webkit-border-radius: 45px;
+	border-radius: 45px;
+	box-shadow: 0 0 10pt .5pt black;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+
+}
+
+#black{
+	text-align: center;
+	font-size: 30px;
+	width: 70px;
+	height: 70px;
+	background: black;
+	border: 2px solid black;
+	-moz-border-radius: 45px;
+	-webkit-border-radius: 45px;
+	border-radius: 45px;
+	box-shadow: 0 0 10pt .5pt black;
+	float: right;
+
+}
+
+.reset{
+	margin-top: 15px;
+
+	/*margin-bottom: 5%;*/
+}
