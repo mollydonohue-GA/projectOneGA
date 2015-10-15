@@ -4,7 +4,7 @@ body{
 }
 
 h1{
-	margin-bottom: 25px;
+	margin-bottom: 5px;
 	margin-top: 10px;
 	font-family: helvetica;
 	font-size: 50px;
@@ -48,9 +48,11 @@ h1{
   	flex-direction: column;
   	justify-content: center;
   	margin: 20px 0px 0px 20px;
-
+  	color: white;
 }
-
+.spot:hover{
+	background: gray;
+}
 .container-players {
 	background: white;
 	text-align: center;
