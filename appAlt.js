@@ -9,18 +9,28 @@ console.log(spot);
 var buttonReset = $(".reset");
 console.log(buttonReset);
 
-// var spot1 = $("")
+var clicked = $(".clicked");
+console.log(clicked);
+
+
 
 $(spot).click(function(){
-		$(this).addClass('clicked'); 
-		if (turn){
+	if ($(this).hasClass('.clicked')){
+		turn = turn;
+	}else {
+
+		 if (turn){
 			$(this).css('background-color', 'yellow');
+			// $(this).css('cursor', 'none');
+			$(this).addClass('.clicked'); 
 			turn = false;
 		} else {
-			$(this).css('background-color', 'black');	
+			$(this).css('background-color', 'black');
+			// $(this).css('cursor', 'none');
+			$(this).addClass('.clicked'); 	
 			turn = true;
 		}
-
+	}		
 })
 
 
