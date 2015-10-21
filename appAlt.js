@@ -38,14 +38,12 @@ $(spot).click(function(){
 			} 
 		}	
 				
-	} 
-	// if ($(this).hasClass('row2')){
-	// alert("yellow wins!");
-	// ($(spot).css('background-color', 'yellow'));
-	// }		
+	} 		
 })
 
-
+if (turnCount === 8){
+	alert("yellow wins!");
+}
 
 $(buttonReset).click(function(){
 	location.reload();
