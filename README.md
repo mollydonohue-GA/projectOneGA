@@ -1,2 +1,2 @@
 # projectOneGA
-blackjack 
+Simple Connect Four app 
